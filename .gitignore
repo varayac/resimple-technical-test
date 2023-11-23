@@ -1,11 +1,35 @@
-# Node.JS
-client/node_modules
-client/package-lock.json
-server/node_modules
-server/package-lock.json
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Enviroments
-# .env
+# Ignorar node_modules globalmente
+node_modules/
 
-# MacOS
+# Archivos de bloqueo de paquetes
+package-lock.json
+
+# Variables de entorno
+.env
+
+# Directorios y archivos del editor
+.vscode/
+!.vscode/extensions.json
+.idea/
 .DS_Store
+
+# Archivos específicos de ciertos entornos de desarrollo
+*.local
+
+# Archivos de entornos de desarrollo específicos de Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
