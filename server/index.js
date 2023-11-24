@@ -1,7 +1,6 @@
 import express from 'express';
 import { readDataFromExcel } from './src/dataHandlers/excelHandler.js';
 import { readDataFromDictionary } from './src/dataHandlers/jsonHandler.js';
-import { combinedData } from './src/dataHandlers/dataCombined.js';
 
 console.clear();
 const app = express();
