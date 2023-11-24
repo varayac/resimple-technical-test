@@ -22,13 +22,13 @@ El desarrollo de la lógica encargada de obtener y manipular los datos de estos 
 
 1. Clonar repositorio desde: https://github.com/varayac/resimple-technical-test
 2. Acceder al repositorio: `cd resimple-technical-test`
-3. Instalar dependencias y ejecutar cliente: `cd client && npm i && npm start`
-4. Instalar dependencias y ejecutar servidor: `cd server && npm i && npm start`
+3. Instalar dependencias y ejecutar servidor: `cd server && npm i && npm run start`
+4. Instalar dependencias y ejecutar cliente: `cd client && npm i && npm run dev`
 
 ## Uso
 
-1. Ejecutar el servidor: `npm start` en server/.
-2. Ejecutar el cliente: `npm start` en client/.
+1. Ejecutar el servidor: `npm run start` en server/.
+2. Ejecutar el cliente: `npm run dev` en client/.
 3. Acceder a la aplicación web en tu navegador: `http://localhost:5173/`.
 
 ## Tecnologías utilizadas
@@ -50,4 +50,4 @@ Con el fin de mantener buenas practicas y un código limpio se ha utilizado el s
 -   Ejecutar para visualizar alertas: `npm run lint`
 -   Ejecutar para formatear código: `npm run format`
 
-_Codificado con ☕️ por Víctor Araya_ 😊
+_Se agradece la oportunidad a ReSimple, este repo seguira mejorando._ 😊
